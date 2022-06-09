@@ -4,3 +4,15 @@ body{
     margin: 0;
     padding: 0;
 }
+custom-navbar{
+    background-color: #101010;
+    color: #FF8C00;
+    margin: 0;
+    padding: 0;
+    width: 1vw;
+    height:0.1vh;
+    
+}
+custom-img{
+    object-fit: cover;
+}
