@@ -4,11 +4,33 @@ body{
     margin: 0;
     padding: 0;
 }
-custom-navbar{
+.custom-navbar{
     background-color: #101010;
     opacity: 0.9;
     color: #FF8C00;
 }
-custom-img{
+.custom-img{
     object-fit: cover;
+}
+footer{
+    
+    background-color: #101010;
+    opacity: 0.9;
+    color: #FF8C00;
+    font-family: stroudley, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    height: 4em ;
+    text-align: center;
+}
+
+footer p{
+    color: #FF8C00;
+    font-family: stroudley, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
 }
