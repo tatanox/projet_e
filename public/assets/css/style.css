@@ -1,0 +1,14 @@
+body{
+    background-color: #101010;
+    color: #FF8C00;
+    margin: 0;
+    padding: 0;
+}
+custom-navbar{
+    background-color: #101010;
+    opacity: 0.9;
+    color: #FF8C00;
+}
+custom-img{
+    object-fit: cover;
+}
