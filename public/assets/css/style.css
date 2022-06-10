@@ -6,12 +6,8 @@ body{
 }
 custom-navbar{
     background-color: #101010;
+    opacity: 0.9;
     color: #FF8C00;
-    margin: 0;
-    padding: 0;
-    width: 1vw;
-    height:0.1vh;
-    
 }
 custom-img{
     object-fit: cover;
