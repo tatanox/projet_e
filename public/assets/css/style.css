@@ -38,7 +38,7 @@ footer p{
 text-transform: none;
 text-decoration: none;
 }
-.w-25, .p-3, .border, .text-center, h1{
+.w-25, .p-3, .border, .text-center, h1 , h2, h3, h4, h5, h6{
     color: #FF8C00;
     font-family: ohm-bold, sans-serif;
     font-weight: 700;
