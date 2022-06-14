@@ -9,11 +9,15 @@
     <hr>
     {% include "component/content2.html.twig" %}
     <hr>
-    {% include "component/content3.html.twig" %}
-    <hr>
+    {% if app.user %} 
     {% include "component/content4.html.twig" %}
     <hr>
     {% include "component/content5.html.twig" %}
     <hr>
     {% include "component/content6.html.twig" %}
+    <hr>
+    {% else %}
+    {% include "component/content3.html.twig" %}
+    <hr>{% endif %}
+    
 {% endblock %}
