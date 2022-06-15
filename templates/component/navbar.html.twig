@@ -5,6 +5,7 @@
 			<div class="logo-wrapper mx-0 d-flex justify-content-between">
 				<a href="{{ path('app_home')}}" data-bs-original-title="" title=""><img class="img-fluid d-inline m-2  border border" src="https://cdn.discordapp.com/attachments/943429806815580160/984420107696627732/Logo-dark.png" width="60" alt=""></a>
 				{% if app.user %}
+				<a href="{{ path('admin')}}" class="border boder-white m-2 p-2">Crud</a>
 				<a href="{{ path('app_logout')}}" class="border boder-white m-2 p-2">Déconnexion</a>
 				{% endif %}
 			</div>

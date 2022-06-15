@@ -5,15 +5,35 @@
 		</h3>
 		
 		<button class="btn btn-primary mt-1" type="button" data-bs-original-title="" title="" style=" --bs-orange">
-			<a href="" data-bs-original-title="" title="">
+			<a href="maquetage" data-bs-original-title="" title="">
 				<span class="mx-1" style="--bs-orange">
-					ouais ouais le test :
+					là-bas :
 				</span>
 
 				<i class="fa fa-angle-right" style="--bs-orange" ></i>
 			</a>
 		</button>
 	</div>
+	{% if app.user %}
+	<div class="w-25 p-3 border text-center">
+		<h3>
+			Les
+			<br>
+			Projets :
+		</h3>
+		
+		<button class="btn btn-primary mt-1" type="button" data-bs-original-title="" title="">
+			<a href="projets" data-bs-original-title="" title="">
+				<span class="mx-1">
+					par ici :
+				</span>
+
+				<i class="fa fa-angle-right"></i>
+
+			</a>
+		</button>
+	</div>
+	{% else %}
 	<div class="w-25 p-3 border text-center">
 		<h3>
 			Connexion :
@@ -22,9 +42,9 @@
 		</h3>
 		
 		<button class="btn btn-primary mt-1" type="button" data-bs-original-title="" title="">
-			<a href="#" data-bs-original-title="" title="">
+			<a href="connexion" data-bs-original-title="" title="">
 				<span class="mx-1">
-					ouais ouais le test :
+					par ici :
 				</span>
 
 				<i class="fa fa-angle-right"></i>
@@ -32,6 +52,7 @@
 			</a>
 		</button>
 	</div>
+	{% endif %}
 	<div class="w-25 p-3 border text-center">
 		<h3>
 			Map :
@@ -40,9 +61,9 @@
 		</h3>
 		
 		<button class="btn btn-primary mt-1" type="button" data-bs-original-title="" title="">
-			<a href="#" data-bs-original-title="" title="">
+			<a href="map" data-bs-original-title="" title="">
 				<span class="mx-1">
-					ouais ouais le test :
+					ici :
 				</span>
 
 				<i class="fa fa-angle-right"></i>

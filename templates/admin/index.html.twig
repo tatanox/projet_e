@@ -1,0 +1,20 @@
+{% extends "@!EasyAdmin/page/content.html.twig" %}
+{% block content %}
+<div class="d-flex justify-content-evenly align-items-center p-2 bd-highlight m-3">
+	<div class="w-50 p-3 border text-center">
+		<h3>
+			Retour à la page d'accueil :
+		</h3>
+		
+		<button class="btn btn-primary mt-1 " type="button" data-bs-original-title="" title="" style=" --bs-orange">
+			<a href="{{ path('app_home') }}" data-bs-original-title="" title="">
+				<span class="mx-1" style="--bs-orange">
+					Retour :
+				</span>
+
+				<i class="fa fa-angle-right" style="--bs-orange" ></i>
+			</a>
+		</button>
+	</div>
+</div>
+{% endblock %}
