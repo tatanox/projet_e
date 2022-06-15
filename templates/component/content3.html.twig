@@ -1,12 +1,12 @@
-    <h2 class="d-flex justify-content-evenly align-items-center"> Inscription et Connexion</h2>
+    <h2 class="d-flex justify-content-evenly align-items-center" id="connexion"> Inscription et Connexion</h2>
 <div class="d-flex justify-content-evenly align-items-center p-2 bd-highlight m-3">
 	<div class="w-25 p-3 border text-center">
 		<h3>
 			Connexion :
 		</h3>
 		
-		<button class="btn mt-1 bg-white" type="button" data-bs-original-title="" title="" style=" --bs-orange">
-			<a href="" data-bs-original-title="" title="">
+		<button class="btn btn-primary mt-1" type="button" data-bs-original-title="" title="" style=" --bs-orange">
+			<a href="{{ path('app_login') }}" data-bs-original-title="" title="">
 				<span class="mx-1" style="--bs-orange">
 					Se connecter :
 				</span>
@@ -20,8 +20,8 @@
 			Inscription :
 		</h3>
 		
-		<button class="btn btn-bs-orange mt-1" type="button" data-bs-original-title="" title="">
-			<a href="#" data-bs-original-title="" title="">
+		<button class="btn btn-primary mt-1" type="button" data-bs-original-title="" title="">
+			<a href="{{ path('app_register') }}" data-bs-original-title="" title="">
 				<span class="mx-1">
 					S'inscrire :
 				</span>
